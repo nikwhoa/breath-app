@@ -37,10 +37,3 @@ function breatheAnimation() {
 setInterval(breatheAnimation, totalTimer);
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    new GreenAudioPlayer('.example');
-});
-new GreenAudioPlayer('.example',{
-    selector: '.player',
-    stopOthersOnPlay: true
-});
