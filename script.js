@@ -35,9 +35,6 @@ function breatheAnimation() {
 
 
 setInterval(breatheAnimation, totalTimer);
-for (let i = 0; i < 3; i++) {
 
-    let numbercolors = i;
 
-}
-
+document.getElementById('audio').play();
