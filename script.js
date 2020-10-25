@@ -5,7 +5,7 @@ const totalTimer = 9000;
 const breatheTime = (totalTimer / 5) * 2;
 const hold = totalTimer / 5;
 
-let colors = ['#106788', '#808861', '#883F36'];
+let colors = ['#FDF8E2', '#FFDDD3', '#F3BFB3', '#5EA9BE', '#8AE3D7', '#61D4D4'];
 
 function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
