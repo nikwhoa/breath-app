@@ -1,7 +1,7 @@
 const container = document.querySelector('.container');
 const text = document.querySelector('#text');
 
-const totalTimer = 9000;
+const totalTimer = 11000;
 const breatheTime = (totalTimer / 5) * 2;
 const hold = totalTimer / 5;
 
